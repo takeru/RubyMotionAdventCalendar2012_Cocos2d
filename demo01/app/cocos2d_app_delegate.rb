@@ -3,7 +3,7 @@ class Cocos2dAppDelegate
 
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     @window = UIWindow.alloc.initWithFrame UIScreen.mainScreen.bounds
-    
+
     glView = CCGLView.viewWithFrame @window.bounds,
       pixelFormat: KEAGLColorFormatRGB565,
       depthFormat: 0,

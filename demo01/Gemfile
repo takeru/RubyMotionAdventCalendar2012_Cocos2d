@@ -1,4 +1,4 @@
 source :rubygems
 
 gem 'motion-cocoapods'
-gem 'bubble-wrap'
+#gem 'bubble-wrap'

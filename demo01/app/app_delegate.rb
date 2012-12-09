@@ -14,12 +14,12 @@ class AppDelegate < Cocos2dAppDelegate
     true
   end
 
-  
   #def shouldAutorotateToInterfaceOrientation(orientation)
   #  [UIInterfaceOrientationPortrait,
   #   UIInterfaceOrientationPortraitUpsideDown,
   #   UIInterfaceOrientationLandscapeLeft,
-  #   UIInterfaceOrientationLandscapeRight].include?(orientation)
+  #   UIInterfaceOrientationLandscapeRight
+  #  ].include?(orientation)
   #end
 end
 
