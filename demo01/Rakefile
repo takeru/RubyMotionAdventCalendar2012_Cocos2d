@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+require 'rubygems'
+require 'bundler'
+Bundler.require :default
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'demo01'
+  
+  app.info_plist['UIStatusBarHidden'] = true
+  app.info_plist['UIInterfaceOrientation'] = "UIInterfaceOrientationLandscapeLeft"
+  app.info_plist['UISupportedInterfaceOrientations'] = ['UIInterfaceOrientationLandscapeLeft']
+  
+  app.pods do 
+    pod 'cocos2d', :podspec=>'cocos2d.podspec'
+  end
+end
